@@ -18,53 +18,60 @@
   </div>
 </header>
 
-<!-- HERO BANNER IMAGE (CLICKABLE) -->
-<a href="https://static.vecteezy.com/system/resources/previews/037/209/978/non_2x/abstract-metallic-red-grey-cyber-black-line-design-modern-futuristic-technology-background-vector.jpg"
-   target="_blank"
-   class="block border-b border-red-700">
+<!-- HERO SECTION (BANNER + CONTENT TOGETHER) -->
+<section class="relative border-b border-red-700">
 
-  <div class="relative w-full h-[420px] md:h-[500px] overflow-hidden">
-
-    <!-- BACKGROUND IMAGE -->
+  <!-- BACKGROUND IMAGE -->
+  <div class="absolute inset-0">
     <img
-      src="https://static.vecteezy.com/system/resources/previews/037/209/978/non_2x/abstract-metallic-red-grey-cyber-black-line-design-modern-futuristic-technology-background-vector.jpg"
-      class="w-full h-full object-cover"
+      src="./red-banner-image.jpg"
       alt="Banner Background"
+      class="w-full h-full object-cover"
     />
-
-    <!-- DARK OVERLAY -->
-    <div class="absolute inset-0 bg-black/60"></div>
-
-    <!-- RED TOP LINE -->
-    <div class="absolute top-0 left-0 right-0 h-[3px] bg-red-600"></div>
-
+    <div class="absolute inset-0 bg-black/65"></div>
   </div>
 
-<!-- QUICK STATS -->
-<section class="max-w-6xl mx-auto px-6 py-10">
+  <!-- CONTENT -->
+  <div class="relative max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center gap-10">
 
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
-      <p class="text-xs text-gray-400">HIGH GAME</p>
-      <p class="text-3xl font-bold">300</p>
-      <p class="text-xs text-gray-500">April 19, 2026</p>
+    <!-- PHOTO -->
+    <div class="shrink-0">
+      <div class="w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-red-500 shadow-lg bg-black">
+        <img
+          src="Axel%202025%20Teen%20Masters.jpeg"
+          alt="Axel Beckes"
+          class="w-full h-full object-cover"
+        />
+      </div>
     </div>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
-      <p class="text-xs text-gray-400">HIGH SERIES</p>
-      <p class="text-3xl font-bold">770</p>
-    </div>
+    <!-- TEXT -->
+    <div class="text-center md:text-left">
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
-      <p class="text-xs text-gray-400">STATE AVG</p>
-      <p class="text-3xl font-bold">230</p>
-      <p class="text-xs text-gray-500">9 games</p>
-    </div>
+      <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
+        Axel Beckes <span class="text-red-500">2029</span>
+      </h1>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
-      <p class="text-xs text-gray-400">GPA</p>
-      <p class="text-3xl font-bold">3.64</p>
+      <p class="text-lg md:text-xl text-gray-200 mt-2">
+        Bowling • Right-Handed • Two-Handed Release
+      </p>
+
+      <p class="text-gray-400 mt-1">
+        Anchorage, Alaska • Grace Christian Prep / West High School Bowling
+      </p>
+
+      <div class="mt-5 flex items-center gap-4 flex-wrap">
+
+        <a href="https://www.instagram.com/battleaxbowler/"
+           target="_blank"
+           class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">
+          Instagram
+        </a>
+
+        <span class="text-gray-400 text-sm">@battleaxbowler</span>
+
+      </div>
+
     </div>
 
   </div>
