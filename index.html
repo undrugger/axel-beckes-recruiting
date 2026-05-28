@@ -3,159 +3,165 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Axel Beckes 2029 | Bowling Recruiting Profile</title>
+  <title>Axel Beckes | Athlete Profile</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-black text-white">
 
+<!-- TOP HEADER BAR (ESPN STYLE) -->
+<div class="bg-black border-b border-red-700 px-6 py-3 text-sm text-gray-300 flex justify-between">
+  <span>Bowling Athlete Profile</span>
+  <span class="text-red-500 font-semibold">Class of 2029</span>
+</div>
+
 <!-- HERO -->
-<section class="border-b border-red-700">
+<section class="relative border-b border-red-700 overflow-hidden">
 
-  <div class="relative bg-gradient-to-br from-black via-zinc-900 to-black">
+  <!-- background -->
+  <div class="absolute inset-0 bg-gradient-to-b from-black via-zinc-900 to-black"></div>
+  <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
 
-    <!-- subtle texture -->
-    <div class="absolute inset-0 opacity-15 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+  <div class="relative max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-[180px_1fr] gap-10 items-center">
 
-    <div class="relative max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-10">
-
-      <!-- PHOTO -->
-      <div class="shrink-0">
-        <div class="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-red-500 shadow-lg bg-black">
-          <img
-            src="Axel%202025%20Teen%20Masters.jpeg"
-            alt="Axel Beckes"
-            class="w-full h-full object-cover"
-          />
-        </div>
+    <!-- PHOTO -->
+    <div class="mx-auto md:mx-0">
+      <div class="w-44 h-44 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-red-500 shadow-xl">
+        <img
+          src="Axel%202025%20Teen%20Masters.jpeg"
+          class="w-full h-full object-cover"
+          alt="Axel Beckes"
+        />
       </div>
+    </div>
 
-      <!-- TEXT -->
-      <div class="text-center md:text-left">
+    <!-- NAME BLOCK -->
+    <div>
 
-        <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
-          Axel Beckes <span class="text-red-500">2029</span>
-        </h1>
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight">
+        Axel Beckes <span class="text-red-500">2029</span>
+      </h1>
 
-        <p class="text-xl md:text-2xl mt-3 text-gray-200">
-          Bowling Recruiting Profile • Anchorage, Alaska
-        </p>
+      <p class="text-gray-300 mt-2 text-lg">
+        Bowling • Right-Handed • Two-Handed Style
+      </p>
 
-        <p class="text-gray-400 mt-2">
-          Right-Handed • Two-Handed Bowler • Multi-Sport Athlete
-        </p>
+      <p class="text-gray-500 mt-1">
+        Anchorage, Alaska • Grace Christian Prep / West High Bowling
+      </p>
 
+      <div class="mt-5 flex flex-wrap gap-3">
         <a href="https://www.instagram.com/battleaxbowler/"
            target="_blank"
-           class="inline-block mt-6 bg-red-600 hover:bg-red-700 px-6 py-2 rounded-xl font-semibold">
-          Follow on Instagram
+           class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">
+          Instagram
         </a>
-
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- QUICK STATS -->
+<!-- QUICK STATS (ESPN TILE STYLE) -->
 <section class="max-w-6xl mx-auto px-6 py-10">
 
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
-      <p class="text-gray-400 text-sm">High Game</p>
-      <p class="text-2xl font-bold">300</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
+      <p class="text-gray-400 text-xs">HIGH GAME</p>
+      <p class="text-3xl font-bold">300</p>
+      <p class="text-xs text-gray-500">4/19/2026</p>
     </div>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
-      <p class="text-gray-400 text-sm">High Series</p>
-      <p class="text-2xl font-bold">770</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
+      <p class="text-gray-400 text-xs">HIGH SERIES</p>
+      <p class="text-3xl font-bold">770</p>
     </div>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
-      <p class="text-gray-400 text-sm">State Avg</p>
-      <p class="text-2xl font-bold">230</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
+      <p class="text-gray-400 text-xs">STATE AVG</p>
+      <p class="text-3xl font-bold">230</p>
+      <p class="text-xs text-gray-500">9 games</p>
     </div>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
-      <p class="text-gray-400 text-sm">GPA</p>
-      <p class="text-2xl font-bold">3.64</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
+      <p class="text-gray-400 text-xs">GPA</p>
+      <p class="text-3xl font-bold">3.64</p>
     </div>
 
   </div>
 </section>
 
-<!-- ACADEMICS -->
-<section class="max-w-6xl mx-auto px-6 py-6">
+<!-- MAIN GRID -->
+<section class="max-w-6xl mx-auto px-6 pb-16 grid md:grid-cols-2 gap-6">
 
+  <!-- ACADEMICS -->
   <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6">
 
-    <h2 class="text-2xl font-semibold text-red-400 mb-4">Academics & Athletics</h2>
+    <h2 class="text-xl font-bold text-red-400 mb-4">Profile</h2>
 
-    <p><span class="text-gray-400">High School:</span> Grace Christian Prep School</p>
+    <p><span class="text-gray-400">High School:</span> Grace Christian Prep</p>
     <p><span class="text-gray-400">Bowling Team:</span> West High School</p>
     <p><span class="text-gray-400">Coach:</span> Harry Weigle</p>
-    <p><span class="text-gray-400">Major:</span> Statistics / Math</p>
+    <p><span class="text-gray-400">Major Interest:</span> Statistics / Math</p>
     <p><span class="text-gray-400">Minor:</span> Communications</p>
 
     <p class="mt-4 text-gray-300">
-      <span class="font-semibold">Multi-Sport Athlete:</span>
-      Varsity Hockey • Varsity Baseball
+      <span class="font-semibold">Multi-Sport:</span> Hockey • Baseball
     </p>
 
   </div>
-</section>
 
-<!-- ACHIEVEMENTS -->
-<section class="max-w-6xl mx-auto px-6 py-6">
-
+  <!-- ACHIEVEMENTS -->
   <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6">
 
-    <h2 class="text-2xl font-semibold text-red-400 mb-4">Achievements</h2>
+    <h2 class="text-xl font-bold text-red-400 mb-4">Achievements</h2>
 
-    <ul class="list-disc list-inside space-y-2 text-gray-200">
-      <li>6× Alaska State Scratch Champion</li>
-      <li>5× Junior Gold Qualifier</li>
-      <li>2025–2026 High School State Champion</li>
-      <li>Back-to-Back Alaska Pepsi State Titles (2024–2025)</li>
-      <li>2026 State Tournament Avg: 222 (18 games)</li>
+    <ul class="space-y-2 text-gray-200 text-sm">
+      <li>• 6× Alaska State Scratch Champion</li>
+      <li>• 5× Junior Gold Qualifier</li>
+      <li>• 2025–2026 State Champion (High School)</li>
+      <li>• Back-to-Back Pepsi State Titles (2024–2025)</li>
+      <li>• 2026 State Tournament Avg: 222</li>
     </ul>
 
   </div>
+
 </section>
 
 <!-- MEDIA -->
-<section class="max-w-6xl mx-auto px-6 py-10">
+<section class="max-w-6xl mx-auto px-6 pb-20">
 
-  <h2 class="text-3xl font-bold text-red-400 mb-6">Media</h2>
+  <h2 class="text-2xl font-bold text-red-400 mb-6">Highlights</h2>
 
   <div class="grid md:grid-cols-2 gap-6">
 
-    <a class="bg-zinc-900 border border-red-800 rounded-2xl p-6 hover:bg-zinc-800 transition"
-       href="https://www.instagram.com/reel/DRjCJMJkYkf/"
-       target="_blank">
+    <a href="https://www.instagram.com/reel/DRjCJMJkYkf/"
+       target="_blank"
+       class="bg-zinc-900 border border-red-800 rounded-xl p-5 hover:bg-zinc-800 transition">
       🎥 Highlight Reel
     </a>
 
-    <a class="bg-zinc-900 border border-red-800 rounded-2xl p-6 hover:bg-zinc-800 transition"
-       href="https://www.instagram.com/p/DXV_a85FWJI/"
-       target="_blank">
-      🎳 300 Game Post
+    <a href="https://www.instagram.com/p/DXV_a85FWJI/"
+       target="_blank"
+       class="bg-zinc-900 border border-red-800 rounded-xl p-5 hover:bg-zinc-800 transition">
+      🎳 300 Game
     </a>
 
-    <a class="bg-zinc-900 border border-red-800 rounded-2xl p-6 hover:bg-zinc-800 transition md:col-span-2"
-       href="https://www.instagram.com/p/DXn39djlUl6/"
-       target="_blank">
-      🏆 Tournament of Champions – Alaska Scholarship Series
+    <a href="https://www.instagram.com/p/DXn39djlUl6/"
+       target="_blank"
+       class="bg-zinc-900 border border-red-800 rounded-xl p-5 hover:bg-zinc-800 transition md:col-span-2">
+      🏆 Tournament of Champions
     </a>
 
   </div>
+
 </section>
 
 <!-- FOOTER -->
-<footer class="border-t border-red-800 py-8 text-center text-gray-500">
-  Axel Beckes 2029 • Bowling Recruiting Profile
+<footer class="border-t border-red-800 py-6 text-center text-gray-500 text-sm">
+  Axel Beckes • Bowling Athlete Profile • Class of 2029
 </footer>
 
 </body>
