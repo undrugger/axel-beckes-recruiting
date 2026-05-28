@@ -10,32 +10,28 @@
 
 <body class="bg-black text-white">
 
-<!-- HERO -->
-<section class="relative border-b border-red-700 overflow-hidden">
+<!-- HERO (ELITE HEADER UPGRADE) -->
+<section class="relative overflow-hidden border-b border-red-700">
 
-  <!-- BACKGROUND -->
   <div class="absolute inset-0 bg-gradient-to-br from-black via-zinc-900 to-black"></div>
   <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
 
-  <!-- CONTENT -->
-  <div class="relative max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-10">
+  <div class="relative max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
 
-    <!-- CIRCULAR PHOTO (FIXED) -->
+    <!-- PHOTO -->
     <div class="relative shrink-0">
 
-      <div class="absolute inset-0 rounded-full bg-red-600 blur-xl opacity-40"></div>
+      <div class="absolute inset-0 rounded-full bg-red-600 blur-2xl opacity-40 animate-pulse"></div>
 
-      <div class="w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-red-500 shadow-2xl bg-black">
+      <div class="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-red-500 shadow-2xl">
         <img
           src="Axel%202025%20Teen%20Masters.jpeg"
           class="w-full h-full object-cover"
-          alt="Axel Beckes"
         />
       </div>
-
     </div>
 
-    <!-- TEXT -->
+    <!-- HEADER TEXT -->
     <div class="text-center md:text-left">
 
       <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
@@ -43,12 +39,16 @@
       </h1>
 
       <p class="text-xl md:text-2xl mt-3 text-gray-200">
-        Anchorage, Alaska • Right-Handed • Two-Handed Bowler
+        Bowling Recruiting Profile • Anchorage, Alaska
+      </p>
+
+      <p class="text-gray-400 mt-2">
+        Right-Handed • Two-Handed Bowler • Multi-Sport Athlete
       </p>
 
       <a href="https://www.instagram.com/battleaxbowler/"
          target="_blank"
-         class="inline-block mt-5 bg-red-600 hover:bg-red-700 px-5 py-2 rounded-xl font-semibold">
+         class="inline-block mt-6 bg-red-600 hover:bg-red-700 px-6 py-2 rounded-xl font-semibold">
         Follow on Instagram
       </a>
 
@@ -57,28 +57,29 @@
   </div>
 </section>
 
-<!-- STATS -->
-<section class="max-w-6xl mx-auto px-6 py-12">
+<!-- QUICK STATS STRIP (NEW) -->
+<section class="max-w-6xl mx-auto px-6 py-10">
 
-  <h2 class="text-3xl font-bold text-red-400 mb-8">Performance Stats</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 
-  <div class="grid md:grid-cols-3 gap-6">
-
-    <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6 text-center">
-      <p class="text-gray-400">High Game</p>
-      <p class="text-4xl font-bold mt-2">300</p>
-      <p class="text-sm text-gray-500">(4/19/2026)</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
+      <p class="text-gray-400 text-sm">High Game</p>
+      <p class="text-2xl font-bold">300</p>
     </div>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6 text-center">
-      <p class="text-gray-400">High Series</p>
-      <p class="text-4xl font-bold mt-2">770</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
+      <p class="text-gray-400 text-sm">High Series</p>
+      <p class="text-2xl font-bold">770</p>
     </div>
 
-    <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6 text-center">
-      <p class="text-gray-400">State Championship Avg</p>
-      <p class="text-4xl font-bold mt-2">230</p>
-      <p class="text-sm text-gray-500">(9 games)</p>
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
+      <p class="text-gray-400 text-sm">State Avg</p>
+      <p class="text-2xl font-bold">230</p>
+    </div>
+
+    <div class="bg-zinc-900 border border-red-800 rounded-xl p-4 text-center">
+      <p class="text-gray-400 text-sm">GPA</p>
+      <p class="text-2xl font-bold">3.64</p>
     </div>
 
   </div>
@@ -94,7 +95,6 @@
     <p><span class="text-gray-400">High School:</span> Grace Christian Prep School</p>
     <p><span class="text-gray-400">Bowling Team:</span> West High School</p>
     <p><span class="text-gray-400">Coach:</span> Harry Weigle</p>
-    <p><span class="text-gray-400">GPA:</span> 3.64</p>
     <p><span class="text-gray-400">Major:</span> Statistics / Math</p>
     <p><span class="text-gray-400">Minor:</span> Communications</p>
 
@@ -104,7 +104,6 @@
     </p>
 
   </div>
-
 </section>
 
 <!-- ACHIEVEMENTS -->
@@ -123,41 +122,48 @@
     </ul>
 
   </div>
-
 </section>
 
-<!-- MEDIA -->
+<!-- VIDEO SECTION (NEW EMBEDDED STYLE) -->
 <section class="max-w-6xl mx-auto px-6 py-10">
 
-  <h2 class="text-3xl font-bold text-red-400 mb-6">Media</h2>
+  <h2 class="text-3xl font-bold text-red-400 mb-6">Highlights</h2>
 
   <div class="grid md:grid-cols-2 gap-6">
 
-    <a class="bg-zinc-900 border border-red-800 rounded-2xl p-6 hover:bg-zinc-800 transition"
-       href="https://www.instagram.com/reel/DRjCJMJkYkf/"
-       target="_blank">
-      🎥 Highlight Reel
-    </a>
+    <iframe class="w-full aspect-video rounded-xl border border-red-800"
+      src="https://www.youtube.com/embed/"
+      title="Highlight Reel"
+      allowfullscreen>
+    </iframe>
 
-    <a class="bg-zinc-900 border border-red-800 rounded-2xl p-6 hover:bg-zinc-800 transition"
-       href="https://www.instagram.com/p/DXV_a85FWJI/"
-       target="_blank">
-      🎳 300 Game Post
-    </a>
+    <div class="space-y-4">
 
-    <a class="bg-zinc-900 border border-red-800 rounded-2xl p-6 hover:bg-zinc-800 transition md:col-span-2"
-       href="https://www.instagram.com/p/DXn39djlUl6/"
-       target="_blank">
-      🏆 Tournament of Champions – Alaska Scholarship Series
-    </a>
+      <a class="block bg-zinc-900 border border-red-800 rounded-xl p-4 hover:bg-zinc-800"
+         href="https://www.instagram.com/reel/DRjCJMJkYkf/"
+         target="_blank">
+        🎥 Instagram Reel
+      </a>
 
+      <a class="block bg-zinc-900 border border-red-800 rounded-xl p-4 hover:bg-zinc-800"
+         href="https://www.instagram.com/p/DXV_a85FWJI/"
+         target="_blank">
+        🎳 300 Game
+      </a>
+
+      <a class="block bg-zinc-900 border border-red-800 rounded-xl p-4 hover:bg-zinc-800"
+         href="https://www.instagram.com/p/DXn39djlUl6/"
+         target="_blank">
+        🏆 Tournament of Champions
+      </a>
+
+    </div>
   </div>
-
 </section>
 
 <!-- FOOTER -->
 <footer class="border-t border-red-800 py-8 text-center text-gray-500">
-  Axel Beckes 2029 • Bowling Recruiting Profile
+  Axel Beckes 2029 • Recruiting Profile
 </footer>
 
 </body>
