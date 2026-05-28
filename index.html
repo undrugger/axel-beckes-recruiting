@@ -10,7 +10,7 @@
 
 <body class="bg-black text-white">
 
-<!-- TOP ESPN BAR -->
+<!-- TOP BAR -->
 <header class="border-b border-red-700 bg-black">
   <div class="max-w-6xl mx-auto px-6 py-2 flex justify-between text-xs text-gray-400">
     <span>ATHLETE PROFILE • BOWLING / HOCKEY / BASEBALL</span>
@@ -18,64 +18,68 @@
   </div>
 </header>
 
-<!-- HERO / IMAGE BANNER -->
-<section class="relative border-b border-red-700 overflow-hidden">
+<!-- HERO BANNER (FIXED + RELIABLE) -->
+<section class="relative border-b border-red-700">
 
-  <!-- BACKGROUND IMAGE -->
-  <div
-    class="absolute inset-0 bg-center bg-cover"
-    style="background-image: url('https://static.vecteezy.com/system/resources/previews/037/209/978/non_2x/abstract-metallic-red-grey-cyber-black-line-design-modern-futuristic-technology-background-vector.jpg');">
-  </div>
+  <!-- BACKGROUND IMAGE (SAFE METHOD) -->
+  <div class="relative w-full h-[420px] md:h-[500px]">
 
-  <!-- DARK OVERLAY (IMPORTANT for readability) -->
-  <div class="absolute inset-0 bg-black/70"></div>
+    <img
+      src="https://static.vecteezy.com/system/resources/previews/037/209/978/non_2x/abstract-metallic-red-grey-cyber-black-line-design-modern-futuristic-technology-background-vector.jpg"
+      class="absolute inset-0 w-full h-full object-cover"
+      alt="Banner Background"
+    />
 
-  <!-- RED ESPN TOP ACCENT -->
-  <div class="absolute top-0 left-0 right-0 h-[3px] bg-red-600"></div>
+    <!-- DARK OVERLAY -->
+    <div class="absolute inset-0 bg-black/70"></div>
 
-  <!-- CONTENT -->
-  <div class="relative max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center gap-10">
+    <!-- RED TOP LINE -->
+    <div class="absolute top-0 left-0 right-0 h-[3px] bg-red-600"></div>
 
-    <!-- PHOTO -->
-    <div class="shrink-0">
-      <div class="w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-red-500 shadow-lg bg-black">
-        <img
-          src="Axel%202025%20Teen%20Masters.jpeg"
-          alt="Axel Beckes"
-          class="w-full h-full object-cover"
-        />
-      </div>
-    </div>
+    <!-- CONTENT -->
+    <div class="relative max-w-6xl mx-auto px-6 h-full flex flex-col md:flex-row items-center gap-10">
 
-    <!-- TEXT -->
-    <div class="text-center md:text-left">
-
-      <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
-        Axel Beckes <span class="text-red-500">2029</span>
-      </h1>
-
-      <p class="text-lg md:text-xl text-gray-200 mt-2">
-        Bowling • Right-Handed • Two-Handed Release
-      </p>
-
-      <p class="text-gray-400 mt-1">
-        Anchorage, Alaska • Grace Christian Prep / West High School Bowling
-      </p>
-
-      <div class="mt-5 flex items-center gap-4 flex-wrap">
-
-        <a href="https://www.instagram.com/battleaxbowler/"
-           target="_blank"
-           class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">
-          Instagram
-        </a>
-
-        <span class="text-gray-400 text-sm">@battleaxbowler</span>
-
+      <!-- PHOTO -->
+      <div class="shrink-0 mt-10 md:mt-0">
+        <div class="w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-red-500 shadow-lg bg-black">
+          <img
+            src="Axel%202025%20Teen%20Masters.jpeg"
+            alt="Axel Beckes"
+            class="w-full h-full object-cover"
+          />
+        </div>
       </div>
 
-    </div>
+      <!-- TEXT -->
+      <div class="text-center md:text-left">
 
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
+          Axel Beckes <span class="text-red-500">2029</span>
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-200 mt-2">
+          Bowling • Right-Handed • Two-Handed Release
+        </p>
+
+        <p class="text-gray-400 mt-1">
+          Anchorage, Alaska • Grace Christian Prep / West High School Bowling
+        </p>
+
+        <div class="mt-5 flex items-center gap-4 flex-wrap">
+
+          <a href="https://www.instagram.com/battleaxbowler/"
+             target="_blank"
+             class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">
+            Instagram
+          </a>
+
+          <span class="text-gray-400 text-sm">@battleaxbowler</span>
+
+        </div>
+
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -163,17 +167,17 @@
 
       <div>
         <p class="text-gray-400 mb-1">Competitive Profile</p>
-        <p class="text-gray-200">Proven success across state-level championships in bowling, hockey, and baseball.</p>
+        <p class="text-gray-200">Proven success across state-level competition in multiple sports.</p>
       </div>
 
       <div>
         <p class="text-gray-400 mb-1">Development Focus</p>
-        <p class="text-gray-200">Continued national experience and consistency under high-pressure environments.</p>
+        <p class="text-gray-200">Continued national exposure and consistency under pressure.</p>
       </div>
 
       <div>
         <p class="text-gray-400 mb-1">Projection</p>
-        <p class="text-gray-200">Strong collegiate athletic potential with academic alignment in analytics and statistics.</p>
+        <p class="text-gray-200">Strong collegiate potential with academic alignment in analytics.</p>
       </div>
 
     </div>
@@ -190,19 +194,15 @@
     <h2 class="text-xl font-bold text-red-400 mb-4">Athlete Bio</h2>
 
     <p class="text-gray-200 leading-relaxed mb-4">
-      Axel Beckes is a multi-sport student-athlete from Alaska who competes at a high level in hockey, baseball, and bowling while maintaining a strong academic focus and long-term collegiate goals in sports analytics and statistics.
+      Axel Beckes is a multi-sport student-athlete from Alaska who competes at a high level in hockey, baseball, and bowling while maintaining strong academic and collegiate aspirations in sports analytics and statistics.
     </p>
 
     <p class="text-gray-200 leading-relaxed mb-4">
-      In hockey, he has served as a captain and key contributor in Alaska’s AA program and has competed at both state and national levels.
-    </p>
-
-    <p class="text-gray-200 leading-relaxed mb-4">
-      In baseball, he has demonstrated elite versatility and production across multiple positions while contributing to championship-level teams.
+      He is a proven competitor in high-pressure environments across all three sports with leadership experience and championship-level performance.
     </p>
 
     <p class="text-gray-200 leading-relaxed">
-      In bowling, he is one of Alaska’s top junior competitors with multiple state titles, national qualifications, and a verified perfect game.
+      He continues to develop as a collegiate-level prospect with strong academic focus and athletic versatility.
     </p>
 
   </div>
