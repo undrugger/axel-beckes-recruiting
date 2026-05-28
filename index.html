@@ -3,64 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Axel Beckes | Player Profile</title>
+  <title>Axel Beckes | Athlete Profile</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-black text-white">
 
-<!-- ESPN STYLE TOP BAR -->
-<div class="bg-black border-b border-red-700 px-6 py-2 flex justify-between text-xs text-gray-400">
-  <span>ATHLETE PROFILE • BOWLING / HOCKEY / BASEBALL</span>
-  <span class="text-red-500 font-semibold">CLASS OF 2029</span>
-</div>
+<!-- TOP BAR -->
+<header class="border-b border-red-700 bg-black">
+  <div class="max-w-6xl mx-auto px-6 py-2 flex justify-between text-xs text-gray-400">
+    <span>ATHLETE PROFILE • BOWLING / HOCKEY / BASEBALL</span>
+    <span class="text-red-500 font-semibold">CLASS OF 2029</span>
+  </div>
+</header>
 
 <!-- HERO -->
-<section class="relative border-b border-red-700 overflow-hidden">
+<section class="border-b border-red-700">
 
-  <!-- background -->
-  <div class="absolute inset-0 bg-gradient-to-b from-black via-zinc-900 to-black"></div>
-  <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+  <div class="bg-gradient-to-b from-black via-zinc-900 to-black">
 
-  <div class="relative max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center gap-10">
+    <div class="max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center gap-10">
 
-    <!-- PHOTO -->
-    <div class="shrink-0">
-      <div class="w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-red-500 shadow-xl">
-        <img
-          src="Axel%202025%20Teen%20Masters.jpeg"
-          alt="Axel Beckes"
-          class="w-full h-full object-cover"
-        />
-      </div>
-    </div>
-
-    <!-- HEADER TEXT -->
-    <div class="text-center md:text-left">
-
-      <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
-        Axel Beckes <span class="text-red-500">2029</span>
-      </h1>
-
-      <p class="text-lg md:text-xl text-gray-300 mt-2">
-        Bowling • Right-Handed Two-Handed Release
-      </p>
-
-      <p class="text-gray-500 mt-1">
-        Anchorage, Alaska • Grace Christian Prep / West High School Bowling
-      </p>
-
-      <div class="mt-5 flex flex-wrap gap-3">
-        <a href="https://www.instagram.com/battleaxbowler/"
-           target="_blank"
-           class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">
-          Instagram
-        </a>
+      <!-- PHOTO -->
+      <div class="shrink-0">
+        <div class="w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-red-500 shadow-lg bg-black">
+          <img
+            src="Axel%202025%20Teen%20Masters.jpeg"
+            alt="Axel Beckes"
+            class="w-full h-full object-cover"
+          />
+        </div>
       </div>
 
-    </div>
+      <!-- NAME + INFO -->
+      <div class="text-center md:text-left">
 
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tight">
+          Axel Beckes <span class="text-red-500">2029</span>
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-300 mt-2">
+          Bowling • Right-Handed • Two-Handed Release
+        </p>
+
+        <p class="text-gray-500 mt-1">
+          Anchorage, Alaska • Grace Christian Prep / West High School Bowling
+        </p>
+
+        <div class="mt-5 flex items-center gap-4 flex-wrap">
+
+          <a href="https://www.instagram.com/battleaxbowler/"
+             target="_blank"
+             class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">
+            Instagram
+          </a>
+
+          <span class="text-gray-500 text-sm">
+            @battleaxbowler
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -72,7 +79,7 @@
     <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
       <p class="text-xs text-gray-400">HIGH GAME</p>
       <p class="text-3xl font-bold">300</p>
-      <p class="text-xs text-gray-500">Apr 19, 2026</p>
+      <p class="text-xs text-gray-500">April 19, 2026</p>
     </div>
 
     <div class="bg-zinc-900 border border-red-800 rounded-xl p-4">
@@ -94,7 +101,7 @@
   </div>
 </section>
 
-<!-- PROFILE GRID -->
+<!-- PROFILE + ACHIEVEMENTS -->
 <section class="max-w-6xl mx-auto px-6 pb-10 grid md:grid-cols-2 gap-6">
 
   <!-- PROFILE -->
@@ -126,8 +133,43 @@
       <li>• 2025–2026 High School State Champion</li>
       <li>• Back-to-Back Alaska Pepsi State Titles</li>
       <li>• 2026 State Tournament Avg: 222</li>
-      <li>• 1st 300 Game (April 2026)</li>
+      <li>• First 300 Game (April 2026)</li>
     </ul>
+
+  </div>
+
+</section>
+
+<!-- SCOUTING SNAPSHOT -->
+<section class="max-w-6xl mx-auto px-6 pb-10">
+
+  <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6">
+
+    <h2 class="text-xl font-bold text-red-400 mb-4">Scouting Snapshot</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 text-sm">
+
+      <div>
+        <p class="text-gray-400 mb-1">Strengths</p>
+        <p class="text-gray-200">Competitive mindset, multi-sport athleticism, clutch performance, strong leadership.</p>
+      </div>
+
+      <div>
+        <p class="text-gray-400 mb-1">Competitive Profile</p>
+        <p class="text-gray-200">High-level junior competitor with proven success across multiple state championships.</p>
+      </div>
+
+      <div>
+        <p class="text-gray-400 mb-1">Development Focus</p>
+        <p class="text-gray-200">Continued national experience and consistency under pressure environments.</p>
+      </div>
+
+      <div>
+        <p class="text-gray-400 mb-1">Projection</p>
+        <p class="text-gray-200">Strong collegiate potential in athletics and academic alignment in analytics.</p>
+      </div>
+
+    </div>
 
   </div>
 
@@ -138,34 +180,22 @@
 
   <div class="bg-zinc-900 border border-red-800 rounded-2xl p-6">
 
-    <h2 class="text-xl font-bold text-red-400 mb-6">Athlete Bio</h2>
+    <h2 class="text-xl font-bold text-red-400 mb-4">Athlete Bio</h2>
 
-    <!-- OVERVIEW -->
-    <p class="text-gray-200 leading-relaxed mb-5">
+    <p class="text-gray-200 leading-relaxed mb-4">
       Axel is a multi-sport student-athlete from Alaska who competes at a high level in hockey, baseball, and bowling while maintaining a strong focus on academics and long-term collegiate goals in sports analytics and statistics.
     </p>
 
-      <!-- BOWLING -->
-    <h3 class="text-white font-semibold mb-2">Bowling</h3>
-    <p class="text-gray-200 leading-relaxed mb-5">
-      In bowling, Axel has established himself as one of Alaska’s top junior competitors. He was a member of the 2025–2026 Alaska High School State Championship team from West High School and will compete at the 2026 National High School Team Championships. He rolled his first perfect game (300) in April 2026 and earned 1st Place All Events in the Division 1 Handicap category, along with 2nd Place All Events Scratch Division 1 in 2026. He is a six-time state scratch champion (formerly Pepsi) and a five-time Junior Gold qualifier.
+    <p class="text-gray-200 leading-relaxed mb-4">
+      On the ice, he is a key contributor and former captain in the Alaska Blue Devils AA program and has represented Team Alaska in national-level competition.
     </p>
 
-    <!-- HOCKEY -->
-    <h3 class="text-white font-semibold mb-2">Hockey</h3>
-    <p class="text-gray-200 leading-relaxed mb-5">
-      On the ice, Axel is a key contributor for the Alaska Blue Devils AA program, where he served as captain of the 2025–2026 14U AA team. Under his leadership, the team finished as state tournament runners-up, and he led the tournament in goals during the 2026 season. His performance earned him selection to Team Alaska for the 2026 Arctic Winter Games. Axel also competed at the varsity level for West High School as a freshman, helping his team reach the 2026 state high school tournament.
+    <p class="text-gray-200 leading-relaxed mb-4">
+      In baseball, he has demonstrated versatility and high-level production across multiple positions while contributing to championship-level teams.
     </p>
 
-    <!-- BASEBALL -->
-    <h3 class="text-white font-semibold mb-2">Baseball</h3>
-    <p class="text-gray-200 leading-relaxed mb-5">
-      On the baseball field, Axel demonstrated versatility and competitive edge. He was part of the 2025 American Legion A State Championship team with West Post 1 and also played for Grace Christian High School, where he led the team with a .606 batting average at season’s end. He plays multiple positions including catcher, third base, first base, and pitcher, reflecting athletic adaptability and strong game awareness.
-    </p>
-
-    <!-- CLOSING -->
     <p class="text-gray-200 leading-relaxed">
-      Across all three sports, Axel is recognized for his competitive mindset, leadership, and ability to perform in high-pressure environments. He is pursuing opportunities to compete at the collegiate level while planning to major in mathematics or statistics, with a minor in communications, and a long-term goal of working in sports analytics or data-driven performance analysis.
+      In bowling, he is one of Alaska’s top junior competitors with multiple state titles and a perfect game achievement.
     </p>
 
   </div>
@@ -198,6 +228,7 @@
     </a>
 
   </div>
+
 </section>
 
 <!-- FOOTER -->
